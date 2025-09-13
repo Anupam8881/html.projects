@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #226e70;
+}
+
+.traffic-light {
+    width: 100px;
+    height: 270px;
+    background-color: #000;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.light {
+    width: 80px;
+    height: 80px;
+    margin: 10px auto;
+    border-radius: 50%;
+    opacity: 0.3; /* Initially dim the lights */
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+/* Optional: Add a simple animation to simulate the traffic light changing */
+@keyframes traffic-light {
+    0% { opacity: 0.3; }
+    10% { opacity: 1; }
+    30% { opacity: 0.3; }
+    40% { opacity: 1; }
+    60% { opacity: 0.3; }
+    70% { opacity: 1; }
+    90% { opacity: 0.3; }
+    100% { opacity: 0.3; }
+}
+
+.red {
+    animation: traffic-light 6s infinite;
+}
+
+.yellow {
+    animation: traffic-light 6s infinite 2s;
+}
+
+.green {
+    animation: traffic-light 6s infinite 4s;
+}

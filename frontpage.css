@@ -1,0 +1,35 @@
+body{
+    background-color:rgb(223, 122, 122);
+    padding-left: 200px;
+}
+h2{
+text-align: center;
+    font-size: large;
+    color: rgb(52, 26, 5);
+    margin-right: 20px;
+}
+button{
+    color: red;
+    background-color:rgb(50, 19, 3);
+    margin-left:150px ;
+    margin-top: 13px;
+}
+
+form{
+    color:brown;
+    font-size:medium;
+    display: inline;
+    text-align: center;
+
+}
+
+.name{
+    text-align: center;
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+}
+.name2{
+    text-align: center;
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+}
